@@ -1,8 +1,7 @@
 class Song
-  attr_reader :artist, :genre
-  attr_accessor :name
+attr_accessor :name, :artist, :genre
 
-  @@all = []
+@@all = []
 
   def initialize(name, artist, genre)
     @name = name
@@ -15,7 +14,7 @@ class Song
     @@all
   end
 
-  def say_hi
-    puts 'hi'
-  end
+
+
+
 end
